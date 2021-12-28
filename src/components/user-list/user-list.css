@@ -1,0 +1,30 @@
+.loading-container {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.loading-container img {
+    height: 200px;
+    width: 200px;
+
+}
+
+.item-list {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-list .item {
+    height: 250px;
+    width: 200px;
+    text-align: center;
+}
+
+.item-list .item img {
+    height: 150px;
+    width: 150px;
+}
